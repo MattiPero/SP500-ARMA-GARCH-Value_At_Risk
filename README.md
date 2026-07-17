@@ -8,3 +8,8 @@ The analysis uses historical daily closing prices of the S&P 500 index downloade
 
 - Dataset: `^GSPC_yahoofin.csv`
 - Source: Yahoo Finance
+
+The dataset contains several market variables, only the following are used in this analysis:
+
+- `Date`: trading date.
+- `Close`: daily closing price used to compute log prices and log returns.
