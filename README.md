@@ -4,12 +4,12 @@ This project investigates the dynamics of daily S&P 500 returns through time ser
 
 ## Dataset
 
-The analysis uses historical daily closing prices of the S&P 500 index downloaded from Yahoo Finance.
+The analysis is based on historical daily closing prices of the S&P 500 index downloaded from Yahoo Finance.
 
 - **Dataset:** `^GSPC_yahoofin.csv`
 - **Source:** Yahoo Finance
 
 The dataset contains several market variables; however, only the following are used in this analysis:
 
-- **Date:** trading date.
-- **Close:** daily closing price, used to compute log prices and log returns.
+- **Date:** Trading date.
+- **Close:** Daily closing price used to compute log prices and log returns.
